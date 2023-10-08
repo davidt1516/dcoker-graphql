@@ -1,4 +1,4 @@
-name: Docker Image CI
+dearing3153name: Docker Image CI
 
 on:
   push:
@@ -30,7 +30,7 @@ jobs:
         
     - name: Push Docker Image
       run: |
-        docker push klerith/graphql:0.0.2
+        docker push Endearing3153/graphql:0.0.2
     
         
     # - name: Build the Docker image
