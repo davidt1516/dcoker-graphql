@@ -26,11 +26,11 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t endearing3153/graphql:0.0.2 .
+        docker build -t endearing3153/docker-graphql:0.0.2 .
         
     - name: Push Docker Image
       run: |
-        docker push Endearing3153/graphql:0.0.2
+        docker push Endearing3153/docker-graphql:0.0.2
     
         
     # - name: Build the Docker image
